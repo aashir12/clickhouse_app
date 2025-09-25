@@ -8,7 +8,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "Welcome to School Management Backend!";
+        return "Welcome to Clickhouse app!";
     }
 
     @GetMapping("/health")
